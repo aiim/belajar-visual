@@ -12,7 +12,10 @@
     <script>
         // Function to fetch and display data
         function fetchData() {
-            fetch('data.json')
+            // Adding a timestamp to avoid caching
+            const url = 'data.json?' + new Date().getTime();
+            
+            fetch(url)
                 .then(response => response.json())
                 .then(data => {
                     document.getElementById('data').textContent = JSON.stringify(data, null, 4);
@@ -24,7 +27,7 @@
         fetchData();
 
         // Fetch data every 15 minutes (900000 milliseconds)
-        setInterval(fetchData, 60000); // 1 minutes
+        setInterval(fetchData, 60000); // 15 minutes
     </script>
 </body>
 </html>
