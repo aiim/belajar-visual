@@ -13,7 +13,7 @@
         fetch('data.json')
             .then(response => response.json())
             .then(data => {
-                document.getElementById('data').textContent = JSON.stringify(data, null, 1);
+                document.getElementById('data').textContent = JSON.stringify(data, null, 4);
             });
     </script>
 </body>

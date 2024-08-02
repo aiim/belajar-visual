@@ -2,7 +2,7 @@ name: Update Kobo Data
 
 on:
   schedule:
-    - cron: '*/15 * * * *'  # Jalankan setiap 15 menit
+    - cron: '*/0.30 * * * *'  # Jalankan setiap 15 menit
   push:
     branches:
       - main

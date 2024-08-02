@@ -1,3 +1,30 @@
 {
-    "detail": "Not found."
+    "count": 1,
+    "next": null,
+    "previous": null,
+    "results": [
+        {
+            "_id": 984262,
+            "_notes": [],
+            "_validation_status": {},
+            "_uuid": "23d52465-4c12-4bcd-bc85-da108f484139",
+            "_bamboo_dataset_id": "",
+            "_tags": [],
+            "_submitted_by": null,
+            "_xform_id_string": "aHqw7oYxjhUVbGBSyDuXTc",
+            "meta/instanceID": "uuid:23d52465-4c12-4bcd-bc85-da108f484139",
+            "formhub/uuid": "57a7ca39db1a4448ba4beaf7e9560a26",
+            "nama": "Rohim",
+            "end": "2024-08-03T00:26:06.941+07:00",
+            "_submission_time": "2024-08-02T17:58:42",
+            "_attachments": [],
+            "start": "2024-08-03T00:26:00.726+07:00",
+            "_geolocation": [
+                null,
+                null
+            ],
+            "_status": "submitted_via_web",
+            "__version__": "v9q6aHJH8RJwg7KuPeEQWa"
+        }
+    ]
 }
